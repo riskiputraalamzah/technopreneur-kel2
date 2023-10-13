@@ -6,6 +6,9 @@ h5,
 h6 {
   font-family: "Times New Roman", Times, serif !important;
 }
+body {
+ overflow-x : hidden;
+}
 .callbacks_container {
   margin-top: 98px;
   max-height: 450px;
