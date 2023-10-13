@@ -6,7 +6,9 @@ h5,
 h6 {
   font-family: "Times New Roman", Times, serif !important;
 }
-body {
+body,
+.about,
+.gallery{
  overflow-x : hidden;
 }
 .callbacks_container {
