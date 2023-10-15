@@ -111,9 +111,9 @@ form .field input {
     left: 46% !important;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .callbacks_tabs {
-    bottom: 40%;
+    /* bottom: 35%; */
     left: 42% !important;
   }
 }
