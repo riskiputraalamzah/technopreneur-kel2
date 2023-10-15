@@ -111,9 +111,19 @@ form .field input {
     left: 46% !important;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   .callbacks_tabs {
     /* bottom: 35%; */
     left: 42% !important;
+  }
+}
+@media (max-width: 375px) {
+  .callbacks_container {
+    margin-top: 85px;
+    /* min-height: 250px; */
+  }
+  .callbacks_tabs {
+    bottom: 45%;
+    /* left: 46% !important; */
   }
 }
