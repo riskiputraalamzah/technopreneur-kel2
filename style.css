@@ -98,14 +98,20 @@ form .field input {
     min-height: 250px;
   }
   .callbacks_tabs {
-    bottom: 30%;
+    bottom: 35%;
   }
 }
 @media (max-width: 480px) {
   .callbacks_container {
-    margin-top: 85px;
+    margin-top: 100px;
     /* min-height: 250px; */
   }
+  .callbacks_tabs {
+    bottom: 35%;
+    left: 46% !important;
+  }
+}
+@media (max-width: 380px) {
   .callbacks_tabs {
     bottom: 40%;
     left: 42% !important;
