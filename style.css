@@ -9,9 +9,9 @@ h6 {
 
 html,
 body,
-.about,
+/* .about, */
 .gallery {
-  overflow-x : hidden !important;
+  overflow-x: hidden !important;
 }
 
 .callbacks_container {
@@ -90,10 +90,24 @@ form .field input {
   }
 }
 @media (max-width: 569px) {
+  .callbacks_container {
+    /* margin-top: 85px; */
+    min-height: 250px;
+  }
   .banner#home {
-    min-height: 350px;
+    min-height: 250px;
   }
   .callbacks_tabs {
-    bottom: 50%;
+    bottom: 30%;
+  }
+}
+@media (max-width: 480px) {
+  .callbacks_container {
+    margin-top: 85px;
+    /* min-height: 250px; */
+  }
+  .callbacks_tabs {
+    bottom: 40%;
+    left: 42% !important;
   }
 }
